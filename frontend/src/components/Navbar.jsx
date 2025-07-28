@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between px-4 md:px-14 py-4
-     border-b border-gray-300 bg-white relative transition-all">
+ border-b border-gray-300 bg-white fixed top-0 left-0 w-full z-50 shadow-sm transition-all">
 
             <NavLink to='/' onClick={()=>setOpen(false)}> 
                 <img className="h-9" src={assets.logo} alt="dummyLogoColored" />
